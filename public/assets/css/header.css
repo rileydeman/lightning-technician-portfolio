@@ -1,6 +1,6 @@
 header {
     #headerTop {
-        padding: .75% .5%;
+        padding: 1% .75%;
         display: flex;
 
         #left {
@@ -35,6 +35,8 @@ header {
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: flex-end;
+                opacity: .75;
+                transition: .25s ease;
 
                 :nth-child(1) {
                     width: 100%;
@@ -52,6 +54,52 @@ header {
                     background-color: #FFFFFF;
                     height: 15%;
                     border-radius: 15px;
+                    transition: .35s ease;
+                }
+
+                &:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            }
+
+            .menuIcon-open {
+                :nth-child(1) {
+                    opacity: 0;
+                }
+
+                :nth-child(2) {
+                    width: 100% !important;
+                }
+
+                :nth-child(3) {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    nav {
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        max-height: 0;
+        transition: .5s ease !important;
+
+        .navItem {
+            padding: 1% 1.5%;
+            margin: 0 1%;
+
+            p {
+                font-family: lexend;
+                color: #FFFFFF;
+                opacity: .75;
+            }
+
+            &:hover {
+                p {
+                    opacity: 1;
                 }
             }
         }

@@ -2,6 +2,7 @@
     --background: #0A0A0A;
     --footerBackground: #262626;
     --primary: #3B0075;
+    --secondary: #8000FF;
 }
 
 * {
@@ -33,6 +34,10 @@ body {
         position: sticky;
         top: 0;
         z-index: 100;
+    }
+
+    main {
+        min-height: 100dvh;
     }
 
     footer {

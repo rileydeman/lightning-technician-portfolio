@@ -22,7 +22,7 @@ include_once("./app/config/config.php");
     <link rel="stylesheet" href="<?= BASEURL ?>public/assets/css/header.css?v=<?= time() ?>">
 
     <!--    Linking of the javascript files, defer = reading/link the file at last-->
-    <script defer src="<?= BASEURL ?>public/assets/js/app.js?v=<?= time() ?>"></script>
+    <script defer src="<?= BASEURL ?>public/assets/js/header.js?v=<?= time() ?>"></script>
 </head>
 
 <body>
