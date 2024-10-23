@@ -1,4 +1,8 @@
 {
+  "titles": {
+    "website": "Website Title",
+    "header": "Header Title"
+  },
   "copyright": {
     "name": "copyright-name",
     "start-year": 2024

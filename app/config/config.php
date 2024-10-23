@@ -24,9 +24,6 @@ if ($_SERVER['REQUEST_URI'] != "/") {
 $config = file_get_contents("{$url}/public/assets/json/config.json");
 $config = json_decode($config, true);
 
-//Get secrets from config.ini file
-$secrets = parse_ini_file(DOCUMENT_ROOT . "/config.ini", true);
-
 //Function for is a mobile device check
 function isMobileDevice()
 {

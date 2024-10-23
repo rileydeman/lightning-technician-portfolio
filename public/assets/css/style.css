@@ -1,0 +1,42 @@
+:root {
+    --background: #0A0A0A;
+    --footerBackground: #262626;
+    --primary: #3B0075;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: lexend;
+}
+
+p {
+    font-family: lato;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+body {
+    background-color: var(--background);
+    color: #FFFFFF;
+
+    header {
+        background-color: var(--primary);
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    footer {
+        background-color: var(--footerBackground);
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+header {
+    #headerTop {
+        padding: .75% .5%;
+        display: flex;
+
+        #left {
+            width: 33.33%;
+        }
+
+        #middle {
+            width: 33.33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                p {
+                    color: #FFFFFF;
+                    font-family: lexend;
+                    font-size: 1.75em;
+                }
+            }
+        }
+
+        #right {
+            width: 33.33%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            #menuIcon {
+                aspect-ratio: 1/1;
+                width: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+
+                :nth-child(1) {
+                    width: 100%;
+                }
+
+                :nth-child(2) {
+                    width: 70%;
+                }
+
+                :nth-child(3) {
+                    width: 100%;
+                }
+
+                span {
+                    background-color: #FFFFFF;
+                    height: 15%;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
